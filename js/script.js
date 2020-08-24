@@ -28,7 +28,7 @@ window.onload = function(){
 
         cube_geometry = new THREE.CubeGeometry(300, 300, 300);
         cube_texture = new THREE.Texture();
-        cube_texture = new THREE.TextureLoader().load( "../img/wood-box.png" );
+        cube_texture = new THREE.TextureLoader().load( "../wood-box.png" );
 
         // cube_material = new THREE.MeshNormalMaterial();
         cube_material = new THREE.MeshBasicMaterial({map: cube_texture, overdraw: true});
